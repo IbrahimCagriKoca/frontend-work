@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Css challenge</title>
+	<link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+	<div id="container">
+		<div id="video">
+			<video src="./assets/Merhaba!.mp4" controls></video>
+		</div>
+		<div id="main-content">
+			<div class="question-bubble">
+				<img src="./assets/cbe672af6609198720b69efd475ab5f641-avatar-last-airbender.rsquare.w1200.jpg"
+					alt="avatar">
+				<div class="bubble">
+					<p>Merhaba, Hangi konuda yardımcı olmamı istersiniz ?</p>
+					<div class="left-arrow">
+						<div class="left-arrow-2"></div>
+					</div>
+				</div>
+			</div>
+			<div class="button-list">
+				<button onclick="onClick(event)" id="new-car" class="choose-buttons">Yeni Araç Alımı</button>
+				<button onclick="onClick(event)" id="service" class="choose-buttons">Servis Hizmeti</button>
+				<button onclick="onClick(event)" id="used-car" class="choose-buttons">2.El Araç Alımı</button>
+				<button onclick="onClick(event)" id="others" class="choose-buttons">Diğer Konular</button>
+			</div>
+		</div>
+		<div id="footer">
+			<input id="user-input" type="text" placeholder="Mesajınızı yazınız">
+			<button onclick="addUserInput()"><img src="./assets/paperplanewhite.png" alt="button"></button>
+		</div>
+	</div>
+	<script src="./js/index.js"></script>
+</body>
+
+</html>
